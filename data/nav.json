@@ -1,0 +1,26 @@
+{
+    "nav": [
+        {
+            "name": "Home",
+            "path": "/e-commerce"
+        },
+        {
+            "name": "About",
+            "path": "/e-commerce/about"
+        },
+        {
+            "name": "Contact",
+            "path": "/e-commerce/contact"
+        },
+        {
+            "name": "Clothes",
+            "path": "/e-commerce/clothes"
+        },
+       
+        {
+            "name": "Shop",
+            "path": "/e-commerce/shop"
+        }
+       
+    ]
+}
