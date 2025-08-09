@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { lazy } from "react";
 import Landing from "../pages/Landing";
 
+const Blog = lazy(() => import("../pages/Ecommerce/blog/Blog"));
 const EcommerceLayout = lazy(() => import("../components/EcommerceLayout"));
 const Home = lazy(() => import("../pages/Ecommerce/Home"));
 const About = lazy(() => import("../pages/Ecommerce/About"));
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
       {
         path: "shop",
         element: <Shop />,
+      },
+      {
+        path: "blog",
+        element: <Blog />,
       },
       {
         path: "clothes",

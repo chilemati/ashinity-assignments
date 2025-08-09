@@ -20,6 +20,10 @@
         {
             "name": "Shop",
             "path": "/e-commerce/shop"
+        },
+        {
+            "name": "Blog",
+            "path": "/e-commerce/blog"
         }
        
     ]
