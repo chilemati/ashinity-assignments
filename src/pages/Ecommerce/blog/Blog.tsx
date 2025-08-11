@@ -86,12 +86,12 @@ const Blog = () => {
         </button>
       </div>
 
-          <div className="grid grid-cols-1 items-center mt-[50px] gap-4 max-w-[70%] mx-auto lg:grid-cols-3 md:grid-cols-2  ">
+          <div className="grid grid-cols-1 items-center px-4 md:px-0 mt-[50px] gap-4 w-full md:max-w-[70%] mx-auto lg:grid-cols-3 md:grid-cols-2  ">
             {data &&
               data.map((each: any) => (
                 <div
                   key={each.id}
-                  className="shadow-xl rounded p-1 pb-4 mx-auto group relative "
+                  className="shadow-xl w-full rounded p-1 pb-4 mx-auto group relative "
                 >
                   <img
                     className="w-full h-[250px] rounded "

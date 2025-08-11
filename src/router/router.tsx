@@ -14,7 +14,8 @@ const ViewShopById = lazy(() => import("../pages/Ecommerce/details/ViewShopById"
 const ViewClothBySlug = lazy(() => import("../pages/Ecommerce/details/ViewClothBySlug"));
 // 
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
   {
     path: "/",
     element: <Landing />,
@@ -57,4 +58,5 @@ export const router = createBrowserRouter([
       },
     ],
   },
-]);
+]
+);
